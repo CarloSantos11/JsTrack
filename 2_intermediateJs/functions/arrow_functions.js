@@ -1,7 +1,12 @@
+//                   ARROW FUNCTIONS
+// -----------------------------------------------------
 // ES6 - Ecmascript 6
 
 // The arrow function simplifies syntax when passing a function into another function
 // Another major difference between arrow functions and regular functions is how they treat the `this` keyword
+
+// Below we have a list of traditional functions
+// As well as their conversion to ES6 arrow function syntax
 
 // ---------------------------------------
 // function sumFunc(a,b) {
