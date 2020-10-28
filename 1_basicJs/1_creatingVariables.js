@@ -29,12 +29,12 @@ var myFirstVariable = 1;
 // function no matter how deeply nested they are inside that 
 // function.
 
+
 // MORE ON SCOPE IN FILE - 3_scope.js
 
 // ------------------ let KEYWORD ------------------
 // ES2015 introduced two important new JavaScript keywords: let and const
 // Before ES2015 the only way to create variables was with the var keyword.
-
 let aBetterWayToCreateAVariables = 2;
 // let is block scoped {}
 // as opposed to being function scoped 
