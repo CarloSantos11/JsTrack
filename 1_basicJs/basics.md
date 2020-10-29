@@ -6,6 +6,9 @@
 > You can follow along chronologically or sift by topic.
 > This readme serves as background inormation, as well as provide a list of resources. See below.
 
+>  comment out code in the .js file you do not you do not wish 
+>  to run --> '//', 'cmd + /', 'crt + /'
+
 ## What is programming:
 > Programming: 
 >

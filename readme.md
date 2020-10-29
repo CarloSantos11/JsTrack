@@ -4,6 +4,7 @@ Version 1.0.0
 You Will Need Node to Run Some of These Examples
 This Repo is a beginner freindly. Learn how to clone and contribute to a project. 
 ## Table of Contents
+Directory structure is subect to change.
 
 ```
 - Basic JS

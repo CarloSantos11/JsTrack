@@ -9,3 +9,5 @@
 
 // this outputs to the terminal
 console.log("Hello World")
+
+// comment out code you do not wish to run --> '//', 'cmd + /', 'crt + /'
