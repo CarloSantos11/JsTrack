@@ -4,7 +4,7 @@ Version 1.0.0
 You Will Need Node to Run Some of These Examples
 This Repo is a beginner freindly. Learn how to clone and contribute to a project. 
 ## Table of Contents
-Directory structure is subect to change.
+Directory structure is subect to change and is a Work in progress (WIP). 
 
 ```
 - Basic JS
@@ -56,11 +56,12 @@ The order of the files is numbered by experience level. We try and follow a chro
 Each section will have a readme describing the concepts within.
 
 ## Contributing 
-// TO DO
+To contribute fork and clone your repository. Make the changes for your 'feature'. Once you have made your changes
  1. Fork
  2. Clone
- 3. PR
-### [Reference First Contributions](https://github.com/firstcontributions/first-contributions)
+ 3. Pull Request 
+ 4. Merged
+### Reference [First Contributions](https://github.com/firstcontributions/first-contributions)
 
 ## License & Copyright
 Licensed under the [MIT License](LICENSE)

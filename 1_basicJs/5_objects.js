@@ -28,9 +28,19 @@
 
 
 // ------- Creating Objects With Literals -----
-let developer = {
+
+// This object only has properties
+let developer_1 = {
   name: "Jose Rizal",
   dob: "6/19/1961",
+  languages: ["Java", "Javascript", "Ruby"],
+  level: "Senior Dev",
+};
+
+// Objects can have both properties and methods
+let developer_2 = {
+  name: "Ada Lovelace",
+  dob: "12/10/1815",
   languages: ["Java", "Javascript", "Ruby"],
   level: "Senior Dev",
   work: function(language) {                                    // This is a method called work
@@ -41,13 +51,21 @@ let developer = {
     }
   }
 };
+console.log(developer_1);
+console.log(developer_2);
 
-developer.work("Java");
-developer.work("C#");
+developer_2.work("Java");   // The console.log takes place in the function
+developer_2.work("C#");
 // ---- Creating Objects With Constructors ----
-function developerConstructor() {
-
+function Dev(name, dob, languages, level) {
+  this.name = name;
+  this.dob = dob;
+  this.languages = languages;
 }
+
+let me = new Dev("Carlo", "12/10/1989", ["Java", "Javascript", "Ruby"]);
+
+console.log(me);
 // ---------------- Prototypes ----------------
 // Extending objects
 // -------------------

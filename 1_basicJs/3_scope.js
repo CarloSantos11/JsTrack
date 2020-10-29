@@ -33,10 +33,34 @@ console.log(scope);         // `global` is logged to the console
 // no way to declare constants. The syntax of var is just 
 // like the syntax of let:
 
-// var x;
-// var data = [], count = data.length;
-// for(var i = 0; i < count; i++) console.log(data[i]);
+var x;
+var data = [], count = data.length;
+for(var i = 0; i < count; i++) console.log(data[i]);          
 
-// let y;
-// let info = [], counter = info.length;
-// for(let i = 0; i < counter; i++) console.log(info[i]);
+let y;                                                      // These two are almost identical
+let info = [], counter = info.length;                       // There is a small difference between let and var.
+for(let i = 0; i < counter; i++) console.log(info[i]);
+
+// var is function scoped
+// let is block scoped
+function varScopedExample() {
+  for(var i = 0; i < 50; i++){
+    var b = "does this print 2";
+  }
+  console.log(i);   // This will log 50 even though incrementing happens in the nested block of code becuae
+                    // var is function scoped, meaning accessible in the whole function.
+  console.log(b);   // This will also print {b} because {b} is function scoped.
+}
+varScopedExample();
+
+function letScopedExample() {
+  for(let i = 0; i < 50; i++){
+    let b = "does this print 2";
+  }
+  console.log(i);   // This will log 0 because {i} is considerd block scoped meaning the changes are only visible within the block
+                    // it was declared in.
+
+  // console.log(b);   // This will not print because {b} is undefined outside of the loop block
+                       // Uncomment this console on line 63 and the code willl break.
+}
+letScopedExample();

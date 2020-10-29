@@ -14,18 +14,24 @@ makeTimer("Cookies are done!", 1000);
 // ------------------------------------------------
 
 function makeCounter() {
-  var count = 0;
+  let count = 0;
 
-  function counter() {
-    count = count + 1;
-    return count;
+  function counter() {          // This is a nested function
+    count = count + 1;          // when called will have access to a variable 
+    return count;               // declared outside of the function in the makeCounter() function
   }
 
   return counter;
 }
 
-var doCount = makeCounter();
+let doCount = makeCounter();    // retruns a reference to the counter() function.
+console.log(doCount());         // doCount() calls the counter() method which will increment 
+console.log(doCount());         // 'count' starting at 0 which was initalized outside of the counter function
+console.log(doCount());         // our doCount has it's own local copy of count
 console.log(doCount());
-console.log(doCount());
-console.log(doCount());
-console.log(doCount());
+
+let doCount2 = makeCounter();    
+console.log(doCount2());         
+
+console.log('doCount:     ' + doCount());     // 2 different local variables with the same name of `count`
+console.log('doCount2:    ' + doCount2());
