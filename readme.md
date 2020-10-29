@@ -56,12 +56,12 @@ The order of the files is numbered by experience level. We try and follow a chro
 Each section will have a readme describing the concepts within.
 
 ## Contributing 
-To contribute fork and clone your repository. Make the changes for your 'feature'. Once you have made your changes
+To contribute, fork and clone your repository. Make the changes for your 'feature'. Once you have made your changes
  1. Fork
  2. Clone
  3. Pull Request 
  4. Merged
-### Reference [First Contributions](https://github.com/firstcontributions/first-contributions)
+Reference [First Contributions](https://github.com/firstcontributions/first-contributions)
 
 ## License & Copyright
 Licensed under the [MIT License](LICENSE)
