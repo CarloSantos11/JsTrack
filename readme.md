@@ -62,7 +62,7 @@ To contribute, fork and clone your repository. Make the changes for your 'featur
  3. Pull Request 
  4. Merged
    
-Reference [First Contributions](https://github.com/firstcontributions/first-contributions)
+Reference [First Contributions](https://github.com/firstcontributions/first-contributions): this is a repo to help you get started with your first contribution to GitHub. Feel free to work through this excercise if you find it beneficial.
 
 ## License & Copyright
 Licensed under the [MIT License](LICENSE)
